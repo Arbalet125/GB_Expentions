@@ -28,3 +28,30 @@ public class main {
         }
     }
 } */
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Если необходимо, исправьте данный код:
+/* Задание 2
+try {
+   int d = 0;
+   double catchedRes1 = intArray[8] / d;
+   System.out.println("catchedRes1 = " + catchedRes1);
+} catch (ArithmeticException e) {
+   System.out.println("Catching exception: " + e);
+} */
+
+// Решение:
+
+/* public static void  task2(){
+    try {
+        int[] intArray = {"Тут", "должен", "быть", "какой-то", "массив"}; 
+        int d = 0;
+        double catchedRes1 = intArray[8] / d;
+        System.out.println("catchedRes1 = " + catchedRes1);
+    } catch (ArithmeticException e) {
+        System.out.println("Catching exception: " + e);
+    } */
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

@@ -11,9 +11,6 @@ import java.sql.SQLOutput;
 public class CGetData extends AGetData {
     BufferedReader reader;
 
-    /**
-     * Интерфейс консольного ввода.
-     */
     public CGetData() {
         this.reader = new BufferedReader(new InputStreamReader(System.in));
     }

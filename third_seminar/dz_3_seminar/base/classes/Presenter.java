@@ -16,14 +16,6 @@ public class Presenter extends APresenter {
     private final ACheckDataProcessor dataProcessor;
     private final AFileWriter fileWriter;
 
-    /**
-     * Объединяет в работу пользовательский интерфейс, парсер строки, проверку на валидность элементов строки
-     * Пишет в файлы инфо по заданному формату.
-     * @param getData - пользовательский интерфейс.
-     * @param dataParseProcessor - парсер строки.
-     * @param dataProcessor - проверка элементов на валидность
-     * @param fileWriter - пишет в файл согласно условию.
-     */
     public Presenter(CGetData getData,
                      CDataParseProcessor dataParseProcessor,
                      ACheckDataProcessor dataProcessor,

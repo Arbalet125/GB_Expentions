@@ -15,9 +15,6 @@ public class CDataParseProcessor extends ADataParseProcessor {
     private long phoneNumber;
     private String sex;
 
-    /**
-     * Разбирает строку на элементы.
-     */
     public CDataParseProcessor() {
         this.data = "";
         this.fullName = new String[3];
@@ -46,10 +43,7 @@ public class CDataParseProcessor extends ADataParseProcessor {
         return this.sex;
     }
 
-    /**
-     * Подготавливает строку для записи к формату по условию.
-     * @return - вщзвращает эту строку
-     */
+
     @Override
     public String[] getInfoToWrite() {
         String[] infoArray = new String[2];
@@ -64,10 +58,7 @@ public class CDataParseProcessor extends ADataParseProcessor {
         return infoArray;
     }
 
-    /**
-     * Парсит строку и разлаживает ее по элементам
-     * @param data - строка с консоли
-     */
+
     @Override
     public void parseData(String data) {
         this.data = data;
@@ -101,10 +92,7 @@ public class CDataParseProcessor extends ADataParseProcessor {
         }
     }
 
-    /**
-     * Геттер для массива с элементами распаршеной строки.
-     * @return - возвращает массив с элементами после парсинга.
-     */
+
     public String[] getDataArray() {
         if(dataArray==null)
             throw new GetDataArrayException();

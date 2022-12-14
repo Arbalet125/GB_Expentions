@@ -9,12 +9,10 @@ package GB_Expentions.second_seminar.dz_2_seminar;
 /* import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 public class main {
     public static void floatReader(String[] args) {
         boolean work = true;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         while(work){
             System.out.print("Введите число (число должно быть дробным!): ");
             try{
@@ -24,7 +22,6 @@ public class main {
             } catch (IOException|NumberFormatException e) {
                 System.out.println("Вы ввели не ДРОБНОЕ число.");
             }
-
         }
     }
 } */
@@ -46,7 +43,7 @@ try {
 
 /* public static void  task2(){
     try {
-        int[] intArray = {"Тут", "должен", "быть", "какой-то", "массив"}; 
+        int[] intArray = {"Тут", "должен", "быть", "какой-то", "массив", "но", "его", нет"}; 
         int d = 0;
         double catchedRes1 = intArray[8] / d;
         System.out.println("catchedRes1 = " + catchedRes1);
@@ -96,7 +93,6 @@ try {
     } catch (Throwable ex) {
         System.out.println("Что-то пошло не так...");
     }
-
 }
 public static void printSum(Integer a, Integer b){
     System.out.println(a + b);
@@ -109,18 +105,13 @@ public static void printSum(Integer a, Integer b){
 // показаться сообщение, что пустые строки вводить нельзя.///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/* import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-public class main {
+/*public class main {
     public static void nullString(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите текст (пустую строку вводить нельзя)");
         try {
             String result = reader.readLine();
             if(result.equals("")) throw new RuntimeException("Вы ввели пустую строку...");
-
             System.out.println(result);
         } catch (IOException e) {
             throw new RuntimeException(e);

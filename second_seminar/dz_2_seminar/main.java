@@ -109,11 +109,7 @@ public static void printSum(Integer a, Integer b){
 // показаться сообщение, что пустые строки вводить нельзя.///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/* import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-public class main {
+/*public class main {
     public static void nullString(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите текст (пустую строку вводить нельзя)");

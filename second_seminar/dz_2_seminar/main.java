@@ -46,7 +46,7 @@ try {
 
 /* public static void  task2(){
     try {
-        int[] intArray = {"Тут", "должен", "быть", "какой-то", "массив"}; 
+        int[] intArray = {"Тут", "должен", "быть", "какой-то", "массив", "но", "его", нет"}; 
         int d = 0;
         double catchedRes1 = intArray[8] / d;
         System.out.println("catchedRes1 = " + catchedRes1);

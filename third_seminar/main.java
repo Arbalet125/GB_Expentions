@@ -1,5 +1,5 @@
-package GB_Expentions.third_seminar;
+// package GB_Expentions.third_seminar;
 
-public class main {
+// public class main {
     
-}
+// }

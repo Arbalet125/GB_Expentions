@@ -6,7 +6,7 @@ import dz_3_seminar.base.exceptions.GetDataException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
+
 
 public class CGetData extends AGetData {
     BufferedReader reader;
@@ -17,16 +17,7 @@ public class CGetData extends AGetData {
 
     @Override
     public String getData() throws IOException {
-        String text = """
-                Введите данные в произвольном порядке, разделенные пробелом:
-                Фамилия Имя Отчество датарождения номер телефона пол.
-                                
-                Форматы данных:
-                Фамилия, имя, отчество - строки.            
-                Дата_рождения - строка формата dd.mm.yyyy.           
-                Номер_телефона - целое беззнаковое число без форматирования.
-                Пол - символ латиницей f или m.
-                """;
+        String text = "Введите данные в произвольном порядке, разделенные пробелом:";
         System.out.println(text);
         System.out.print("Введите данные: ");
         String data = "";
